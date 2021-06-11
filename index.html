@@ -46,6 +46,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Staatliches&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Mitr&family=Source+Code+Pro&family=Staatliches&display=swap');
   
+.nwe {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
   .heart {
     margin-top: 100px;
    margin-left: 5px;
@@ -74,11 +80,10 @@ body > *:not(.truc){
   width: 100%;
   font-weight: 400;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 15px 0px;
   background-color: rgba(0, 0, 0, 0.8);
   transition: top 0.3s;
-  align-items: center;
 }
 
 .my-menu h2 {
@@ -217,6 +222,7 @@ body > *:not(.truc) {
 </style>
 </head>
 <body>
+  <div class="nwe">
 <nav class="my-menu">
       <h2><b>BeingRich.com</b></h2>
       <ul>
@@ -226,7 +232,7 @@ body > *:not(.truc) {
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-
+</div>
 <div class="margin"></div>
 <section class="accueil">
         <div class="my-name">
